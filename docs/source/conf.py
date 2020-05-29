@@ -23,6 +23,8 @@ import sys
 # sys.path.insert(0, os.path.abspath('docs'))
 #sys.path.insert(0, os.path.abspath('.'))
 
+#find the bloody path
+
 mod_path = '../c4h_timers/'
 if os.path.exists(os.path.abspath(mod_path)):
     sys.path.insert(0,os.path.abspath(mod_path))
