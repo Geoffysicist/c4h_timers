@@ -13,39 +13,9 @@
 import os
 import sys
 # this one to build locally
-# sys.path.insert(0, os.path.abspath('../../../c4h_timers/'))
+sys.path.insert(0, os.path.abspath('../../../c4h_timers/'))
 # this one to build on RTD
-# sys.path.insert(0, os.path.abspath('../../../../c4h_timers/'))
-#sys.path.insert(0, os.path.abspath('../../c4h_timers/'))
-# sys.path.insert(0, os.path.abspath('../c4h_timers/'))
-# sys.path.insert(0, os.path.abspath('c4h_timers/'))
-# sys.path.insert(0, os.path.abspath('c4h_timers'))
-# sys.path.insert(0, os.path.abspath('docs'))
-#sys.path.insert(0, os.path.abspath('.'))
-
-#find the bloody path
-
-mod_path = '../c4h_timers/'
-if os.path.exists(os.path.abspath(mod_path)):
-    sys.path.insert(0,os.path.abspath(mod_path))
-    print('1 ',os.path.abspath(mod_path))
-
-mod_path = '../'+mod_path
-if os.path.exists(os.path.abspath(mod_path)):
-    sys.path.insert(0,os.path.abspath(mod_path))
-    print('2 ',os.path.abspath(mod_path))
-
-mod_path = '../'+mod_path
-if os.path.exists(os.path.abspath(mod_path)):
-    sys.path.insert(0,os.path.abspath(mod_path))
-    print('3 ', os.path.abspath(mod_path))
-
-mod_path = '../'+mod_path
-if os.path.exists(os.path.abspath(mod_path)):
-    sys.path.insert(0,os.path.abspath(mod_path))
-    print('4 ', os.path.abspath(mod_path))
-
-
+sys.path.insert(0, os.path.abspath('../../c4h_timers/'))
 
 # -- Project information -----------------------------------------------------
 
