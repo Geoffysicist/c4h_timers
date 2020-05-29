@@ -74,6 +74,7 @@ napoleon_google_docstring = True
 
 autodoc_mock_imports = [
     'neopixel',
+    'board',
     ]
 
 # Add any paths that contain templates here, relative to this directory.
