@@ -4,10 +4,10 @@ c4h\_timers package
 Submodules
 ----------
 
-c4h\_timers.timers module
--------------------------
+c4h\_timers.c4h\_timers module
+------------------------------
 
-.. automodule:: c4h_timers.timers
+.. automodule:: c4h_timers.c4h_timers
    :members:
    :undoc-members:
    :show-inheritance:
