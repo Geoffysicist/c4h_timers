@@ -23,7 +23,7 @@ sys.path.insert(0, os.path.abspath('c4h_timers'))
 sys.path.insert(0, os.path.abspath('docs'))
 sys.path.insert(0, os.path.abspath('.'))
 
-
+print(os.getcwd())
 # -- Project information -----------------------------------------------------
 
 project = 'Courses4Horses Timers'
