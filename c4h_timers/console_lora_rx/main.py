@@ -4,7 +4,7 @@ DEBUG = True
 
 if DEBUG: print('console_lora_rx started')
 
-from c4h_gates import Console
+from c4h_timers import Console
 
 console = Console(debug=DEBUG)
 

@@ -12,7 +12,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../c4h_timers/'))
+sys.path.insert(0, os.path.abspath('../c4h_timers/'))
 
 
 # -- Project information -----------------------------------------------------
@@ -37,11 +37,11 @@ extensions = [
     'sphinx.ext.coverage', #what is this for
     ]
 
+napoleon_google_docstring = True
+
 autodoc_mock_imports = [
     'neopixel',
     ]
-
-napoleon_google_docstring = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

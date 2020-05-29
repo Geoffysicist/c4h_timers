@@ -17,7 +17,7 @@ import time
 
 if DEBUG: print('main started')
 
-from timers import Eye_IR_RX
+from c4h_timers import Eye_IR_RX
 
 eye = Eye_IR_RX(debug=DEBUG)
 
