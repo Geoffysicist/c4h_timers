@@ -15,7 +15,7 @@ c4h\_timers.template module
 c4h\_timers.timers module
 -------------------------
 
-.. automodule:: c4h_timers.timers
+.. automodule:: timers
    :members:
    :undoc-members:
    :show-inheritance:
