@@ -11,7 +11,6 @@ Welcome to Courses4Horses Timers's documentation!
    :caption: Contents:
 
    intro
-   c4h_timers
    modules
 
 

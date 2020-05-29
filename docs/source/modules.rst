@@ -1,5 +1,5 @@
-c4h_timers_root
-===============
+c4h_timers
+==========
 
 .. toctree::
    :maxdepth: 4

@@ -12,7 +12,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../c4h_timers/'))
+sys.path.insert(0, os.path.abspath('../../../c4h_timers'))
 
 
 # -- Project information -----------------------------------------------------
