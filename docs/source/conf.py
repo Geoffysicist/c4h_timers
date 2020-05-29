@@ -16,16 +16,35 @@ import sys
 # sys.path.insert(0, os.path.abspath('../../../c4h_timers/'))
 # this one to build on RTD
 # sys.path.insert(0, os.path.abspath('../../../../c4h_timers/'))
-sys.path.insert(0, os.path.abspath('../../c4h_timers/'))
+#sys.path.insert(0, os.path.abspath('../../c4h_timers/'))
 # sys.path.insert(0, os.path.abspath('../c4h_timers/'))
 # sys.path.insert(0, os.path.abspath('c4h_timers/'))
 # sys.path.insert(0, os.path.abspath('c4h_timers'))
 # sys.path.insert(0, os.path.abspath('docs'))
-sys.path.insert(0, os.path.abspath('.'))
+#sys.path.insert(0, os.path.abspath('.'))
 
-print(os.getcwd())
-print(os.path.abspath('../../c4h_timers/'))
-print(os.path.exists(os.path.abspath('../../c4h_timers/')))
+mod_path = '../c4h_timers/'
+if os.path.exists(os.path.abspath(mod_path)):
+    sys.path.insert(0,os.path.abspath(mod_path))
+    print(os.path.abspath(mod_path))
+
+mod_path = '../'+mod_path
+if os.path.exists(os.path.abspath(mod_path)):
+    sys.path.insert(0,os.path.abspath(mod_path))
+    print(os.path.abspath(mod_path))
+
+mod_path = '../'+mod_path
+if os.path.exists(os.path.abspath(mod_path)):
+    sys.path.insert(0,os.path.abspath(mod_path))
+    print(os.path.abspath(mod_path))
+
+mod_path = '../'+mod_path
+if os.path.exists(os.path.abspath(mod_path)):
+    sys.path.insert(0,os.path.abspath(mod_path))
+    print(os.path.abspath(mod_path))
+
+
+
 # -- Project information -----------------------------------------------------
 
 project = 'Courses4Horses Timers'
