@@ -26,22 +26,22 @@ import sys
 mod_path = '../c4h_timers/'
 if os.path.exists(os.path.abspath(mod_path)):
     sys.path.insert(0,os.path.abspath(mod_path))
-    print(os.path.abspath(mod_path))
+    print('1 ',os.path.abspath(mod_path))
 
 mod_path = '../'+mod_path
 if os.path.exists(os.path.abspath(mod_path)):
     sys.path.insert(0,os.path.abspath(mod_path))
-    print(os.path.abspath(mod_path))
+    print('2 ',os.path.abspath(mod_path))
 
 mod_path = '../'+mod_path
 if os.path.exists(os.path.abspath(mod_path)):
     sys.path.insert(0,os.path.abspath(mod_path))
-    print(os.path.abspath(mod_path))
+    print('3 ', os.path.abspath(mod_path))
 
 mod_path = '../'+mod_path
 if os.path.exists(os.path.abspath(mod_path)):
     sys.path.insert(0,os.path.abspath(mod_path))
-    print(os.path.abspath(mod_path))
+    print('4 ', os.path.abspath(mod_path))
 
 
 
