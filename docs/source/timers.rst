@@ -1,8 +1,5 @@
-c4h\_timers package
+c4h\_timers module
 ===================
-
-Submodules
-----------
 
 .. automodule:: timers
    :members:

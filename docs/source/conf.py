@@ -12,10 +12,19 @@
 #
 import os
 import sys
-# this one to build locally
-sys.path.insert(0, os.path.abspath('../../../c4h_timers/'))
-# this one to build on RTD
-sys.path.insert(0, os.path.abspath('../../c4h_timers/'))
+sys.path.insert(0, os.path.abspath('../../timers/'))
+
+# copy the README.md from the root directory - this will overwrite any README.md in the docs/source directory
+# comment out the following if this is not wanted
+import shutil
+
+try:
+    source_readme = os.path.abspath('../../README.md')
+    dest_readme = os.path.abspath('README.md')
+    shutil.copy(source_readme, dest_readme)
+except FileNotFoundError:
+    print('{} file not found'.format(source_readme))
+
 
 # -- Project information -----------------------------------------------------
 
@@ -29,7 +38,6 @@ release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
 
-master_doc = 'index'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
@@ -41,6 +49,8 @@ extensions = [
     ]
 
 napoleon_google_docstring = True
+
+source_suffix = ['.rst', '.md']
 
 autodoc_mock_imports = [
     'neopixel',
@@ -67,3 +77,5 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+master_doc = 'index'
