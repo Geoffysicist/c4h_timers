@@ -46,6 +46,8 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
     'sphinx.ext.coverage', #what is this for
+    'recommonmark', # to read markdown
+    'sphinx.ext.intersphinx', # to reference other files in the structure eg README.md
     ]
 
 napoleon_google_docstring = True

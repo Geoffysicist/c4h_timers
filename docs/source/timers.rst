@@ -1,4 +1,4 @@
-c4h\_timers module
+timers module
 ===================
 
 .. automodule:: timers
